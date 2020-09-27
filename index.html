@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Sans+KR&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Dark Mode Swtich -->
+    <div class="theme-switch-wrapper">
+      <span id="toggle-icon">
+        <span class="toggle-text">Light Mode</span>
+        <i class="fas fa-sun"></i>
+      </span>
+      <label class="theme-switch">
+        <input type="checkbox" id="togglebox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+    <!-- Navigation -->
+    <nav id="nav">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="title-group">
+        <h1>Practice portfolio</h1>
+        <h2>Welcome to My website</h2>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about">
+      <h1>Undraw Illustrations</h1>
+      <div class="about-container">
+        <div class="image-container">
+          <h2>Web Innovation</h2>
+          <img src="img/undraw_conceptual_idea_light.svg" alt="Proud Coder" id="image1" />
+        </div>
+        <div class="image-container">
+          <h2>Problem Solving</h2>
+          <img src="img/undraw_feeling_proud_light.svg" alt="Proud Coder" id="image2" />
+        </div>
+        <div class="image-container">
+          <h2>High Concept</h2>
+          <img src="img/undraw_proud_coder_light.svg" alt="Proud Coder" id="image3" />
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section id="projects">
+      <h1>Buttons</h1>
+      <div class="buttons">
+        <button class="primary">Primary</button>
+        <button class="secondary">Secondary</button>
+        <button class="primary" disabled>disabled</button>
+        <button class="outline">Outline</button>
+        <button class="secondary outline">Alt Outline</button>
+        <button class="outline" disabled>Disabled</button>
+      </div>
+      <div class="text-box" id="text-box">
+        <p>
+          A programmer is walking along a beach and finds a lamp. <br />
+          He rubs the lamp, and a genie appears. <br />
+          “I am the most powerful genie in the world. I can grant you any wish, but only one wish.”
+          <br />
+          The programmer pulls out a map, points to it and says, “I’d want peace in the Middle
+          East.” <br />
+          The genie responds, “Gee, I don’t know. Those people have been fighting for millennia.
+          <br />
+          I can do just about anything, but this is likely beyond my limits.” <br />
+          The programmer then says, “Well, I am a programmer, and my programs have lots of users.<br />
+          Please make all my users satisfied with my software and let them ask for sensible
+          changes.” <br />
+          At which point the genie responds, “Um, let me see that map again.”
+        </p>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="socail-icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </section>
+  </body>
+</html>
